@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+    <link rel="stylesheet" href="calculadora_imc.css">
+</head>
+<body>  
+    
+ <header>
+        <nav class="navbar">
+            <ul>
+              <li><a href="calculadora_imc.html">Cadastre-se</a></li>
+              <li><a href="calculo_imc.html">Calcule</a></li>
+              <li><a href="#">Dicas</a></li>
+              <li><a href="#">Sobre nós</a></li>
+            </ul>
+        </nav>
+      </header>
+
+    <h1>CALCULADORA DE IMC</h1><br>
+        <h2 id="h">Cadastre-se abaixo para fazer seu cálculo!</h2><br>
+            <form id="cadastroForm">
+                <table>
+                    <tr>
+                        <td>
+                            <label style="color: white; font-size: 170%;" for ="nome completo">Nome completo:</label>
+                            <input class="tamanho" type="text" id="nome" name="nome"><br>
+                            <label style="color: white; font-size: 170%;" for="email">Email:</label>
+                            <input class="tamanho" type="email" id="email" name="email"><br>
+                            <label style="color: white; font-size: 170%;" for="senha">Senha:</label>
+                            <input class="tamanho" type="password" id="senha" name="senha">
+                        </td>
+                    <tr>
+                </table>
+                <div>
+                <input type="submit" id="botão" value="Enviar" onclick="verificação()">
+                </div>
+            </form>
+        <script>
+        document.getElementById("cadastroForm").addEventListener("submit", function(verificação){
+            event.preventDefault();
+                let verificar1 = document.getElementById("nome").value.trim;
+                let verificar2 = document.getElementById("email");
+                let verificar3 = document.getElementById("senha");
+
+                if (verificar1 === "" || verificar2 === "" || verificar3 === ""){
+                    alert("Há alguma informação faltando!");
+                }
+                else {
+                    alert("Cadastro Realizado com Sucesso")
+                    window.location.href="calculo_imc.html";
+                }
+            });
+        </script>
+
+</body>
+</html>
