@@ -11,8 +11,8 @@
  <header>
         <nav class="navbar">
             <ul>
-              <li><a href="calculadora_imc.html">Cadastre-se</a></li>
-              <li><a href="calculo_imc.html">Calcule</a></li>
+              <li><a href="index (2).html">Cadastre-se</a></li>
+              <li><a href="">Calcule</a></li>
               <li><a href="dicas.html">Dicas</a></li>
               <li><a href="#">Sobre nós</a></li>
             </ul>
@@ -35,23 +35,22 @@
                     <tr>
                 </table>
                 <div>
-                <input type="submit" id="botão" value="Enviar" onclick="verificação()">
+                <input type="submit" id="botão" value="Enviar">
                 </div>
             </form>
         <script>
         document.getElementById("cadastroForm").addEventListener("submit", function(verificação){
-            event.preventDefault();
-                let verificar1 = document.getElementById("nome").value.trim;
-                let verificar2 = document.getElementById("email");
-                let verificar3 = document.getElementById("senha");
+            verificação.preventDefault();
+                let verificar1 = document.getElementById("nome").value.trim();
+                let verificar2 = document.getElementById("email").value.trim();
+                let verificar3 = document.getElementById("senha").value.trim();
 
-                if (verificar1 === "" || verificar2 === "" || verificar3 === ""){
+                if (verificar1 == "" || verificar2 == "" || verificar3 == ""){
                     alert("Há alguma informação faltando!");
+                    return;
                 }
-                else {
                     alert("Cadastro Realizado com Sucesso")
                     window.location.href="calculo_imc.html";
-                }
             });
         </script>
 

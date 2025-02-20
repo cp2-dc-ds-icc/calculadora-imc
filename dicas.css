@@ -2,19 +2,66 @@ h1{
     text-align: center; color: white; font-size: 280%; 
 }
 
-#cabeçalho{
-    background-color: #333;
-}
-
-img{
-    width: 700px; height: 400px; display: block; margin: 0 auto; 
+#homem{
+    width: 700px; height: 470px; display: block; margin: 0 auto; padding: 75px;
 }
 
 body{
     background-color: #fafeff;
-    background-image: url(corpo\ humano.jpg);
+    background-image: url(imagens/corpo.jpg);
 }
 
-ul{
-    color: white; font-size: 250%; padding: 30px;
+
+li{
+    color: white; font-size: 150%; padding: 5px; margin: 5px;
 }
+
+#barra{
+    font-size: 9px; padding: 1px;
+}
+
+.navbar{
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li{
+    margin: 0 15px;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease; 
+}
+
+.navbar a:hover{
+    color: #f39c12;
+}
+
+#divisa{
+    background-color: #333;
+    padding: 30px ;
+}
+
+#lista_dicas{
+    float: left;
+    margin: 10px 10px;
+}
+
+#lista_dicas2{
+    float: left;
+    margin: 10px 10px;
+}
+
+#mulher{
+    width: 700px; height: 470px; display: block; margin: 0 auto; padding: 75px;
+}
+
