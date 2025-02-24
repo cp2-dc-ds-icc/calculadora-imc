@@ -65,13 +65,43 @@ body{
 }
 
 .carousel {
-    max-width: 600px;
+    display: flex;
+    max-width: 900px;
     margin: 0 auto;
+    justify-content: center;
+    align-items: center;
 }
 
-.logo {
-    width: 10px; 
-    height: auto;
+#carousel-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    position: relative;
+    right: 50%;
+  }
+  
+#carousel-item .text {
+    text-align: center;
+  }
+#logo{
+    width: 50px; 
+    height: 50px;
     display: block;
     margin: 0 auto;
 }
+
+#logo a{
+    transition: color 0.3s ease; 
+}
+
+#logo a:hover{
+    color: #f39c12;
+}
+
+
+#texto, #link_emagrecer{
+    position: relative;
+    right: 10%;
+}
+
