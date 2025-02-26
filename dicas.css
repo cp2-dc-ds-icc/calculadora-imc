@@ -16,33 +16,33 @@ li{
     color: black; font-size: 150%; padding: 5px; margin: 5px;
 }
 
-#barra{
+#barra1{
     font-size: 9px; padding: 1px;
 }
 
-.navbar{
+.navbar1{
     background-color: #333;
     padding: 10px 20px;
 }
 
-.navbar ul{
+.navbar1 ul{
     list-style-type: none;
     display: flex;
     justify-content: center;
 }
 
-.navbar li{
+.navbar1 li{
     margin: 0 15px;
 }
 
-.navbar a{
+.navbar1 a{
     color: white;
     text-decoration: none;
     font-size: 18px;
     transition: color 0.3s ease; 
 }
 
-.navbar a:hover{
+.navbar1 a:hover{
     color: #f39c12;
 }
 
