@@ -25,6 +25,8 @@ table, tr{
 
 body{
     background-color: #fafeff;
+    background-size: cover;
+    background-repeat: no-repeat;
     background-image: url(imagens/pesos.jpg);
 }
 
@@ -38,29 +40,29 @@ body{
     color: white;
 }
 
-.navbar{
+.navbar1{
     background-color: #333;
     padding: 10px 20px;
 }
 
-.navbar ul{
+.navbar1 ul{
     list-style-type: none;
     display: flex;
     justify-content: center;
 }
 
-.navbar li{
+.navbar1 li{
     margin: 0 15px;
 }
 
-.navbar a{
+.navbar1 a{
     color: white;
     text-decoration: none;
     font-size: 18px;
     transition: color 0.3s ease; 
 }
 
-.navbar a:hover{
+.navbar1 a:hover{
     color: #f39c12;
 }
 
@@ -102,6 +104,13 @@ body{
 
 #texto, #link_emagrecer{
     position: relative;
-    right: 10%;
+    right: 12%;
 }
 
+#gordin, #link_engordar{
+    position: relative;
+    right: 13%;
+}
+#principal, #h, #principal2, #dados{
+    color: white;
+}
