@@ -16,7 +16,7 @@ li{
     color: black; font-size: 150%; padding: 5px; margin: 5px;
 }
 
-#barra1{
+#barra{
     font-size: 9px; padding: 1px;
 }
 
@@ -93,3 +93,7 @@ li{
     width: 700px; height: 470px; display: block; margin: 0 auto; padding: 75px;
 }
 
+#abaixo{
+    position: relative;
+    right: 11%;
+}

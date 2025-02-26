@@ -114,3 +114,13 @@ body{
 #principal, #h, #principal2, #dados{
     color: white;
 }
+
+#fita{
+    width: 90%;
+}
+
+#resultado{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
